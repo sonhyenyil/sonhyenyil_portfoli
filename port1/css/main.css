@@ -1,0 +1,117 @@
+@charset "utf-8";
+#slider {width:100%; height:560px; margin:0px 0px 40px 0px;} 
+#slider > .slider_wrap {width:1630px; height:480px; margin:0 auto; position:relative; overflow:hidden;}
+.slider {width:5730px;}
+.slider > li {width:1630px; height:480px; float: left;}
+.slider > li > a > img {width:100%; height:100%;}
+.slider_wrap > .num_span {width:25px; height:10px; background-color:rgba(51, 51, 51, 0.7); position:absolute; bottom:20px; border-radius:10px; border:1px solid #ddd; cursor:pointer;}
+.slider_wrap > span:nth-of-type(1) { background-color:rgba(255,255,255,0.8); left:48%; }
+.slider_wrap > span:nth-of-type(2) { left:50%; }
+.slider_wrap > span:nth-of-type(3) { left:52%; }
+.slider_wrap > .prev {position:absolute; top:50%; left:0%; font-size:60px; color:#000; transform:translateY(-50%);}
+.slider_wrap > .next {position:absolute; top:50%; right:0%; font-size:60px; color:#000; transform:translateY(-50%);}
+.slider_wrap > .prev:hover {color:#FF3333; cursor:pointer;}
+.slider_wrap > .next:hover {color:#FF3333; cursor:pointer;}
+
+section {width:1400px; height:1680px; margin:0 auto; text-align:center;}
+section > p {margin: 0px 0px 15px 0px;}
+section > h1 {margin:50px 0px 15px 0px;}
+section > #section_item > .stlist >  h3 {font-size:15px;}
+section > #section_top_list {width:1204px; height:50px; text-align:center; margin:0 auto;}
+section > #section_top_list > ul > li {width:172px; height:50px; float: left; border:1px solid #EAEAEA;  padding:12px 0px 0px 0px;}
+section > #section_top_list > ul > li:first-of-type {background-color:lightgray;}
+section > #section_top_list > ul > li:hover {cursor:pointer;}
+section > #section_item {width:1300px; height:800px; margin:0 auto;}
+section > #section_item > .stlist {width:300px; height:340px; float:left; margin:30px 15px 0px 15px; text-align:left;}
+
+section > #section_item > .stlist img {width:100%; height:250px;}
+section > #section_item > .stlist > .code {border-bottom:1px solid #eee;}
+section > #section_item > .stlist > .section_wrap {width:300px; height:310px; border-bottom:1px solid #EAEAEA;} 
+section > #section_item > .stlist:nth-of-type(1) {margin:30px 20px 20px 10px;}
+section > #section_item > .stlist:nth-of-type(4) {margin:30px 0px 20px 0px;}
+section > #section_item > .stlist:nth-of-type(5) {margin:30px 20px 20px 10px;}
+section > #section_item > .stlist:last-of-type {margin:30px 0px 20px 0px;}
+section > #section_item > .stlist > p > a {font-size:12px; padding:5px;}
+section > #section_item > .stlist > h3 {padding:10px;}
+
+section > #brand > h1 {margin:50px 0px 10px 0px;}
+section > #brand > p {margin:0px 0px 20px 0px;}
+
+/*브랜드 전체영역을 알기위한 감싸는 영역 지정*/ 
+section > #brand > .brand_wrap {width:1370px; height:540px; margin:0 auto;}
+
+/*브랜드 좌측 커다란 이미지와 겹쳐놓은 텍스트박스의 값들을 지정*/
+section > #brand > .brand_wrap > .brand_left {width:705px; height:540px; border:1px solid #EAEAEA; float:left; }
+section > #brand > .brand_wrap > .brand_left > .wrap_content {width:705px; height:539px; position:relative;}
+section > #brand > .brand_wrap > .brand_left > .wrap_content > .text_box {width:111px; height:85px; color:white; background-color:#Cccccc; position:absolute; text-align:center; padding:15px 0px 0px 0px; }
+section > #brand > .brand_wrap > .brand_left > .wrap_content:hover {box-shadow:2px 2px 10px #EEE;}
+section > #brand > .brand_wrap > .brand_left > .wrap_content > a > img {width:100%; height:100%;}
+section > #brand > .brand_wrap > .brand_left > .wrap_content > .text_box:nth-of-type(1) > p {font-size:20px; text-align:center;}
+
+/*브랜드 우측의 이미지 3개의 공간크기를 지정*/
+section > #brand > .brand_wrap > .brand_right {width:665px; height:540px;  float:left;}
+
+/*우측 이미지3개의 값들과 겹쳐놓은 텍스트 박스의 값을 지정*/
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(1) > a > img {width:100%; height:100%;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(1){width:327px; height:272px; float:left; position:relative;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(1) > .text_box {width:104px; height:88px; background-color:#006064; position:absolute; text-align:center; padding:15px 0px 0px 0px;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(1):hover {box-shadow: 2px 2px 10px #EEE;}
+
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(2){width:329px; height:272px; float:left;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(2) > a > img {width:100%; height:100%;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(2) > .text_box {width:104px; height:88px; background-color:#cccccc; position:absolute; text-align:center; padding:15px 0px 0px 0px;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(2):hover {box-shadow:2px 2px 10px #EEE;}
+#brand > .brand_wrap > .brand_right > .wrap_content > a > img {float:left;}
+
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(3){width:655px; height:267px; float:left;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(3) > a >img {width:100%; height:100%;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(3) > .text_box {width:104px; height:88px; background-color:#ffcc99; position:absolute; text-align:center; padding:15px 0px 0px 0px;}
+#brand > .brand_wrap > .brand_right > .wrap_content:nth-of-type(3):hover {box-shadow:2px 2px 10px #EEE;}
+#brand > .brand_wrap > .brand_right > .wrap_content > .text_box > p {font-size:20px; color:white;}
+#brand > .brand_wrap > .brand_right > .wrap_content > a > img {float:left;}
+
+.banner {width:100%; height:355px; margin:100px 0px 60px 0px;} 
+.banner > .banner_wrap {width:1960px; height:355px; margin:0px auto;}
+
+/*스토리 공간값을 지정*/
+#story {width:1340px; height:780px; margin:0 auto; text-align:center;}
+/*내용이 들어있는 박스들의 정렬 지정*/
+#story > div {float:left; margin:0px 0px 30px 0px;}
+/*스토리 내부의 값들을 지정*/
+#story > p {margin:0px 0px 30px 0px;}
+#story > .story_1 {width:425px; height:640px; margin:20px 10px 0px 10px; border: 1px solid #EAEAEA; text-align:left; padding:10px; transform:scale(1.0); transition:0.4s;}
+#story > .story_1:hover {opacity:0.9; transform:scale(1.05); box-shadow:3px 3px 5px #EAEAEA; transition:0.4s;}
+#story > .story_1 > h3 {margin:10px 5px;}
+#story > .story_1 > p {font-size:14px; margin:5px 0px 5px 10px; line-height:20px;}
+#story > .story_1 > p > a {color:#666;}
+#story > .story_1 > span {margin:15px 5px 0px 10px; float:right; font-size:14px;}
+
+/*md 추천상품 공간값을 지정*/
+#mdpick {width:1300px; height:1000px; margin: 0 auto; text-align:center; }
+/*md추천 상품 제목부분 여백을 설정*/
+#mdpick > p {margin:0px 0px 30px 0px; color:#666;}
+#mdpick > h1 {margin:70px 0 0 0px;}
+
+/*각 상품의 정보를 감싸는 값들을 지정*/
+#mdpick > .md {width:300px; height:420px; float:left; text-align:left; margin:10px 3px 10px 17px; border:none;}
+/*제품 사진과 정보가 있는 공간*/
+#mdpick > .md a img {width:100%; height:280px;}
+#mdpick > .md p {font-size:12px; padding:8px;}
+
+/*제품의 가격 span은 할인상품의 할인전 가격*/
+#mdpick > .md  span {display:block; padding:8px; font-size:14px; color:silver; text-decoration:line-through; border-bottom:1px solid #EAEAEA;}
+#mdpick > .md  h3 {font-size:15px; padding:8px;}
+
+#mdpick > .md:nth-of-type(8) span {display:none;}
+
+#portfolio {width:100%; height:800px; background-color:#F9F9F9; margin:80px 0px;}
+#portfolio > .portfolio_wrap {width:1300px; height:250px; margin:0 auto; text-align:center;}
+#portfolio > .portfolio_wrap > h1{padding:40px 0px 0px 0px; margin:0px 0px 15px 0px;}
+#portfolio > .portfolio_wrap > p {font-size:15px; color:silver; margin:0px 0px 40px 0px;}
+#portfolio > .portfolio_wrap > .portfolio_list {width:800px; height:40px; margin:0 auto;}
+#portfolio > .portfolio_wrap > .portfolio_list > ul > li {float:left; margin:5px 20px 0px 20px; font-size:17px;}
+#portfolio > .portfolio_wrap > .portfolio_list > ul > li:first-of-type {margin:0px 10px 0px 40px; font-size:25px;}
+#portfolio > .portfolio_wrap > .portfolio_list > ul > li:hover{cursor:pointer;}
+#portfolio >  .portfolio_img {width:100%; height:420px; margin:20px 0px 50px 0px;}
+#portfolio >  .portfolio_img > .portfolio_img_wrap {width:750px; height:420px; margin:0 auto;}
+#portfolio >  .portfolio_img > .portfolio_img_wrap > a > li > img {margin:10px 5px; position:absolute;}

@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PoCo - Fast Food Restaurant</title>
+     
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/common/common_max-width_767.css" rel="stylesheet">
+  <link href="css/common/common_min-width_768_max-width_904.css" rel="stylesheet">
+  <link href="css/common/common_min-width_905_max-width_1299.css" rel="stylesheet">
+  <link href="css/common/common_min-width_1300.css" rel="stylesheet">
+
+	<link href="css/main/main_max-width_767.css" rel="stylesheet">
+  <link href="css/main/main_min-width_768_max-width_904.css" rel="stylesheet">
+  <link href="css/main/main_min-width_905_max-width_1299.css" rel="stylesheet">
+  <link href="css/main/main_min-width_1300.css" rel="stylesheet">
+
+	<!--구글폰트 링크-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+  
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+  <script src="js/common.js"></script>
+	
+</head>
+<body>
+  <header>
+  	 <div id="header_wrap">
+        <img class="header_menu_icon" src="img/main/icon_menu.png" alt="menu_icon">
+  	    <div class="header_logo">
+  	  	  <a href="main.html"><img src="img/common/logo_header.jpg" alt="header_logo"></a>
+  	    </div>
+        <nav class="header_nav">
+  	    	<ul>
+  	      	  <li class="nav_home">
+  	          <a href ="main.html">Home </a><img src="img/common/icon_down.png" alt="icon">
+  	  	      	<ul class="nav_home_list">
+  	  	       	 <li><a href="main.html">Home 1</a></li>
+  	  	       	 <li><a href="main.html">Home 2</a></li>
+  	  	       	 <li><a href="main.html">Home 3</a></li>
+  	  	       	 <li><a href="main.html">Home 4</a></li>
+  	  	      	</ul>
+  	  	    	
+  	      	  </li>
+  	      	  <li><a href ="sub.html">Menu</a></li>
+  	      	  <li><a href ="sub.html">About</a></li>
+  	      	  <li><a href ="sub.html">Shop</a></li>
+  	      	  <li class="nav_blog">
+  	  	      <a href ="sub.html">Blog </a><img src="img/common/icon_down.png" alt="icon">
+              	<ul class="nav_blog_list">
+          	    	<li><a href ="sub.html">Blog List</a></li>
+          	    	<li><a href ="sub.html">Blog Grid</a></li>
+          	    	<li><a href ="sub.html">Blog Single</a></li>
+              	</ul>
+  	      	  </li>
+  	      	  <li class="nav_page">
+  	  	        <a href ="sub.html">Page </a><img src="img/common/icon_down.png" alt="icon">
+              	<ul class="nav_page_list">
+          	    	<li><a href ="sub.html">faq</a></li>
+          	    	<li><a href ="sub.html">Icons</a></li>
+          	    	<li><a href ="sub.html">Our Teams</a></li>
+          	    	<li><a href ="sub.html">Our History</a></li>
+              	</ul>
+  	      	  </li>
+  	      	  <li><a href ="sub.html">Contact</a></li>
+  	    	</ul>
+      	</nav>
+      	<div id="header_icon">
+      		<img src="img/common/icon_scooter.png" alt="scooter">
+      		<div class="text_box">
+      	  	<p>Call and Order In</p>
+      	  	<h3>+1718-904-4450</h3>
+      		</div>
+      		<div class="icon"><img src="img/common/icon_search.png" alt="swarch"></div>
+      	  	<div class="icon"><img src="img/common/icon_man.png" alt="man"></div>
+      	  	<div class="icon"><img src="img/common/icon_heart.png" alt="heart"></div>
+      	  	<div class="icon"><img src="img/common/icon_basket.png" alt="basket"></div>
+      	</div>
+    </div>
+  </header>
+
+  	<div id="slider">
+  		<div id="slider_wrap">
+
+  			<div class="img_left">
+  				<img src="img/main/slider_left.png" alt="slider_left_img">
+  			</div>
+
+  			<div class="slider_text_box">
+  			  <h1 class="slider_big_text">UNLIMIMITED<br>MIDIUM</h1>
+  			  <h3>Medium 2-topping* pizza</h3>
+  			  <p>*Additional charge for premium toppings. Minimum of 2 required.</p>
+  			  <div class="span_wrap">
+  			    <span class="slider_btn"><a href="#"><strong>ORDER NOW</strong></a></span> 
+  			    <span>$12.99</span>
+  			  </div>
+  		  </div>
+
+  		  <div class="img_right">
+  		  	<img class="slider_effect" src="img/main/slider_effect.png" alt="slider_effect">
+  		  	<img class="slider_pizza" src="img/main/slider_pizza.png" alt="slider_pizza">
+  		  	<img class="slider_leafs" src="img/main/slider_leafs.png" alt="slider_leafs">
+  		  	<img class="slider_tomato" src="img/main/slider_tomato.png" alt="slider_tomato">
+  		  	<img class="slider_mushroom" src="img/main/slider_mushroom.png" alt="slider_mushroom">
+  		  	<img class="slider_leaf" src="img/main/slider_leaf.png" alt="slider_leaf">
+  		  </div>
+  		</div>
+
+  	</div>
+
+  	<div id="menus_box_wrap"><a id="menus_box" href="#"><strong>MENUS</strong></a></div>
+
+  	<div id ="category">
+  	  <div class="category_wrap">
+  		<ul class="category_list">
+  		  <li>
+  		  	<a href="#">
+  		  	  <div class="img_box">
+  		  	    <img src="img/main/c1_combo.png" alt="c_combo">
+  		  	    <img src="img/main/category_effect.png" alt="c_effect">
+  		  	  </div>
+  		  	  <p>COMBO</p>
+  		  	</a>
+  		  </li>
+
+  		 <li>
+  		  	<a href="#">
+  		  	  <div class="img_box">
+  		  	    <img src="img/main/c2_kids.png" alt="c_kids">
+  		  	    <img src="img/main/category_effect.png" alt="c_effect">
+  		  	  </div>
+  		  	  <p>KIDS MENUS</p>
+  		  	</a>
+  		  </li>
+
+  		  <li>
+  		  	<a href="#">
+  		  	  <div class="img_box">
+  		  	    <img src="img/main/c3_pizza.png" alt="c_pizza">
+  		  	    <img src="img/main/category_effect.png" alt="c_effect">
+  		  	  </div>
+  		  	  <p>PIZZA</p>
+  		  	</a>
+  		  </li>
+
+  		  <li>
+  		  	<a href="#">
+  		  	  <div class="img_box">
+  		  	    <img src="img/main/c4_boxmeal.png" alt="c_box_meals">
+  		  	    <img src="img/main/category_effect.png" alt="c_effect">
+  		  	  </div>
+  		  	  <p>BOXMEAL</p>
+  		  	</a>
+  		  </li>
+
+  		  <li>
+  		  	<a href="#">
+  		  	  <div class="img_box">
+  		  	    <img src="img/main/c5_burger.png" alt="c_burger">
+  		  	    <img src="img/main/category_effect.png" alt="c_effect">
+  		  	  </div>
+  		  	  <p>BURGER</p>
+  		  	</a>
+  		  </li>
+
+  		  <li>
+  		  	<a href="#">
+  		  	  <div class="img_box">
+  		  	    <img src="img/main/c6_chicken.png" alt="c_chicken">
+  		  	    <img src="img/main/category_effect.png" alt="c_effect">
+  		  	  </div>
+  		  	  <p>CHICKEN</p>
+  		  	</a>
+  		  </li>
+
+  		  <li>
+  		  	<a href="#">
+  		  	  <div class="img_box">
+  		  	    <img src="img/main/c7_sauces.png" alt="c_sauces">
+  		  	    <img src="img/main/category_effect.png" alt="c_effect">
+  		  	  </div>
+  		  	  <p>SAUCES</p>
+  		  	</a>
+  		  </li>
+
+  		  <li>
+  		  	<a href="#">
+  		  	  <div class="img_box">
+  		  	    <img src="img/main/c8_drink.png" alt="c_drink">
+  		  	    <img src="img/main/category_effect.png" alt="c_effect">
+  		  	  </div>
+  		  	  <p>DRINK</p>
+  		  	</a>
+  		  </li>
+
+  		</ul>
+  	  </div>
+  	</div>  	
+
+  	<div id="banner">
+  	  <div class="banner_wrap">
+
+  	  	<div class="banner_box">
+
+  	  	  <div class="banner_text_box">
+  	  	  	<h3>Any day offers</h3>
+  	  	  	<p>NEW PHENOMENON BURGER TASTE</p>
+  	  	  	<span class="ban_span_1">$12.90</span>
+  	  	  </div>
+
+  	  	  <div class="banner_img_box">
+  	  	  	<img src="img/main/banner1-1.png" alt="banner_img1">
+  	  	  	<img src="img/main/banner1-2.png" alt="banneer_background1">
+  	  	  </div>
+
+  	  	</div>
+
+  	  	<div class="banner_box">
+
+  	  	  <div class="banner_text_box">
+  	  	  	<h3>Other flavors</h3>
+  	  	  	<p>SAVE ROOM. WE MADE SALATS</p>
+  	  	  	<span>$12.90</span>
+  	  	  </div>
+
+  	  	  <div class="banner_img_box">
+  	  	  	<img src="img/main/banner2-1.png" alt="banner_img2">
+  	  	  	<img src="img/main/banner2-2.png" alt="banneer_background2">
+  	  	  </div>
+
+  	  	</div>
+
+  	  	<div class="banner_box">
+
+  	  	  <div class="banner_text_box">
+  	  	  	<h3>Find a Poco store near you</h3>
+  	  	  	<span>CONTACT US</span>
+  	  	  </div>
+
+  	  	  <div class="banner_img_box">
+  	  	  	<img src="img/main/banner3.png" alt="banner_img3">
+  	  	  	<img src="img/main/banner2-2.png" alt="banneer_background3">
+  	  	  </div>
+
+  	  	</div>
+
+  	  </div>
+  	</div>
+  	
+  	<div id="popular_dishes">
+
+  	  <div class="popular_dishes_wrap">
+  		<h1>Popular dishes</h1>
+
+  		<ul>
+  		  <li>PIZZA</li>
+  		  <li>SUSHI</li>
+  		  <li>SALATS</li>
+  		  <li>BUGER</li>
+  		  <li>DEREST</li>
+  		</ul>
+  		<div class="popular_menu">
+
+  			<div class="p_menu_box">
+
+  			  <div class="img_box">
+  			   
+  			    <div class="img_box_top">
+  			   	  <span>sale!</span>
+  			      <a class="heart" href="#"></a>
+  			    </div>
+  			   
+  			    <a href="#"><img src="img/main/p_menu_c_breast.png" alt="p_menu_img1"></a>
+  			    <div class="img_box_bg"></div>
+  			  </div>
+
+
+  			  <div class="text_box">
+  			  	<h3><a href="#">BBQ chicken breast</a></h3>
+  			  	<p>A mighty meaty double helping of all the reasons you love our burger.</p>
+  			  	<span class="value">£8.00</span>
+  			  	<a class="basket_btn" href="#"></a>
+  			  </div>
+
+  			</div>
+
+
+  			<div class="p_menu_box">
+
+  			  <div class="img_box">
+  			   
+  			    <div class="img_box_top">
+  			      <a class="heart" href="#"></a>
+  			    </div>
+  			   
+  			    <a href="#"><img src="img/main/p_menu_c_pizza.png" alt="p_menu_img2"></a>
+  			    <div class="img_box_bg"></div>
+  			  </div>
+
+  			  <div class="text_box">
+  			  	<h3><a href="#">Apricot Chicken</a></h3>
+  			  	<p>Crispy bacon, tasty ham, pineapple, onion and stretchy mozzarella, finished with a BBQ swirl.</p>
+  			  	<span class="value">£18.30</span>
+  			  	<a class="basket_btn" href="#"></a>
+  			  </div>
+  			  
+  			</div>
+
+  			<div class="p_menu_box">
+
+  			  <div class="img_box">
+  			   
+  			    <div class="img_box_top">
+  			      <a class="heart" href="#"></a>
+  			    </div>
+  			   
+  			    <a href="#"><img src="img/main/p_menu_shake.png" alt="p_menu_img3"></a>
+  			    <div class="img_box_bg"></div>
+  			  </div>
+
+  			  <div class="text_box">
+
+            <div class="star_rating">
+              <span>★★★☆☆</span>
+            </div>
+
+  			  	<h3><a href="#">strawberry Shake</a></h3>
+  			  	<p>Iced coffee is a type of coffee beverage served chilled, brewed variously with the fundamental division</p>
+  			  	<span class="value">£10.68</span>
+  			  	<a class="basket_btn" href="#"></a>
+  			  </div>
+  			  
+  			</div>
+
+  			<div class="p_menu_box">
+
+  			  <div class="img_box">
+  			   
+  			    <div class="img_box_top">
+  			      <a class="heart" href="#"></a>
+  			    </div>
+  			   
+  			    <a href="#"><img src="img/main/p_menu_burger.png" alt="p_menu_img4"></a>
+  			    <div class="img_box_bg"></div>
+  			  </div>
+
+  			  <div class="text_box">
+  			    <h3><a href="#">Bacon Burger</a></h3>
+  			  	<p>A mighty meaty double helping of all the reasons you love our burger.</p>
+  			  	<span class="value">£10.95</span>
+  			  	<a class="basket_btn" href="#"></a>
+  			  </div>
+  			  
+  			</div>
+
+  			<div class="p_menu_box">
+
+  			  <div class="img_box">
+  			   
+  			    <div class="img_box_top">
+  			      <a class="heart" href="#"></a>
+  			    </div>
+  			   
+  			    <a href="#"><img src="img/main/p_menu_smoothie.png" alt="p_menu_img5"></a>
+  			    <div class="img_box_bg"></div>
+  			  </div>
+
+  			  <div class="text_box">
+            <div class="star_rating">
+              <span>★★★☆☆</span>
+            </div>
+  			  	<h3><a href="#">Kiwi Smoothie</a></h3>
+  			  	<p> Iced coffee is a type of coffee beverage served chilled, brewed variously with the fundamental division</p>
+  			  	<span class="value">£12.33</span>
+  			  	<a class="basket_btn" href="#"></a>
+  			  </div>
+  			  
+  			</div>
+
+  			<div class="p_menu_box">
+
+  			  <div class="img_box">
+  			   
+  			    <div class="img_box_top">
+  			      <a class="heart" href="#"></a>
+  			    </div>
+  			   
+  			    <a href="#"><img src="img/main/p_menu_c_muffin.png" alt="p_menu_img6"></a>
+  			    <div class="img_box_bg"></div>
+  			  </div>
+
+  			  <div class="text_box">
+            <div class="star_rating">
+              <span>★★★★☆</span>
+            </div>
+  			  	<h3><a href="#">Chocolate Muffin</a></h3>
+  			  	<p>Browse unique Coca-Cola products, clothing, & accessories, or customize Coke bottles and gifts</p>
+  			  	<span class="value">£17.2</span>
+  			  	<a class="basket_btn" href="#"></a>
+  			  </div>
+  			  
+  			</div>
+
+  			<div class="p_menu_box">
+
+  			  <div class="img_box">
+  			   
+  			    <div class="img_box_top"> 
+  			      <a class="heart" href="#"></a>
+  			    </div>
+  			   
+  			    <a href="#"><img src="img/main/p_menu_ice_tea.png" alt="p_menu_img7"></a>
+  			    <div class="img_box_bg"></div>
+  			  </div>
+
+
+
+  			  <div class="text_box">
+            <div class="star_rating">
+              <span>★★★★☆</span>
+            </div>
+  			  	<h3><a href="#">Iced Tea Bottle</a></h3>
+  			  	<p>Iced coffee is a type of coffee beverage served chilled, brewed variously with the fundamental division</p>
+  			  	<span class="value">£11.89</span>
+  			  	<a class="basket_btn" href="#"></a>
+  			  </div>
+  			  
+  			</div>
+
+  			<div class="p_menu_box">
+
+  			  <div class="img_box">
+  			   
+  			    <div class="img_box_top">
+  			     <span>sale!</span>
+  			     <a class="heart" href="#"></a>
+  			    </div>
+  			   
+  			    <a href="#"><img src="img/main/p_menu_i_pizza.png" alt="p_menu_img8"></a>
+  			    <div class="img_box_bg"></div>
+  			  </div>
+
+  			  <div class="text_box">
+            <div class="star_rating">
+              <span>★★★★☆</span>
+            </div>
+  			  	<h3><a href="#">Grand Italiano</a></h3>
+  			  	<p>Quisque pretium turpis non tempus cursus. Nulla consequat, mi nec pellentesque imperdiet, mi quam congue magna, tristique commodo.</p>
+  			  	<span class="value">£7.00</span>
+  			  	<a class="basket_btn" href="#"></a>
+  			  </div>
+  			  
+  			</div>
+  			
+  		</div>
+      
+        <a class="p_bottom_btn" href="#">ALL PROCUCTS</a>
+
+  	  </div>
+
+  	</div>
+
+  	<div id="large_banner">
+      <div id="large_banner_bg">
+  	    <div class="large_banner_wrap">
+  	      <img src="img/main/background-pizza.png" alt="background-pizza">
+  		
+  		  <div class="think_box">
+  		    <img src="img/main/think.png" alt="think">
+
+  		    <div class="text_box">
+  		      <h3>Get Up to</h3>
+  		      <h2>50%<br></h2>
+  		    </div>
+
+  	      </div>
+
+          <div class="t_box">
+  		    <h3>Hot Fresh</h3>
+  		    <h1>HOTDOG</h1>
+            <button>ORDER NOW</button>
+            <img src="img/main/large_banner_t.png" alt="large_banner_t">
+          </div>
+        </div>
+      </div>
+  	</div>
+    
+    <section>
+  	  <div id="top_recipes">
+  		<div class="top_recipes_wrap">
+
+          <div class="text_box">
+  		    <h2>TOP recipes</h2>
+  		    <a href="#"><span>see all</span> <img src="img/main/icon_right_t.png" alt="right_icon_t"></a> 
+  		  </div>
+
+  		  <div class="content_box">
+  		  	<img src="img/main/p_menu_c_breast.png" alt="top_recipes_1">
+            <div class="text_box">
+  		  	  <h3><a href="#">BBQ chicken breast</a></h3>
+  		  	  <p><a href="#">Pasta</a></p>
+  		  	  <span>£8.00</span>
+  		  	  <a class="basket_btn" href="#"></a>
+  		  	</div>
+  		  </div>
+
+  		  <div class="content_box">
+  		  	<img src="img/main/p_menu_c_pizza.png" alt="top_recipes_2">
+            <div class="text_box">
+  		  	  <h3><a href="#">Apricot Chicken</a></h3>
+  		  	  <p><a href="#">Pizza</a></p>
+  		  	  <span>£18.30</span>
+  		  	  <a class="basket_btn" href="#"></a>
+  		  	</div>
+  		  </div>
+
+  		  <div class="content_box">
+  		  	<img src="img/main/p_menu_shake.png" alt="top_recipes_3">
+            <div class="text_box">
+  		  	  <h3><a href="#">blueberry Shake</a></h3>
+  		  	  <p><a href="#">Cold Drinks</a></p>
+  		  	  <span>£10.68</span>
+  		  	  <a class="basket_btn" href="#"></a>
+  		  	</div>
+  		  </div>
+
+  		  <div class="content_box">
+  		  	<img src="img/main/p_menu_burger.png" alt="top_recipes_4">
+            <div class="text_box">
+  		  	  <h3><a href="#">Bacon Burger</a></h3>
+  		  	  <p><a href="#">Bugers</a></p>
+  		  	  <span>£10.95</span>
+  		  	  <a class="basket_btn" href="#"></a>
+  		  	</div>
+  		  </div>
+
+  		  <div class="content_box">
+  		  	<img src="img/main/p_menu_smoothie.png" alt="top_recipes_5">
+            <div class="text_box">
+  		  	  <h3><a href="#">Liwi Smoothie</a></h3>
+  		  	  <p><a href="#">Cold Drinks</a></p>
+  		  	  <span>£12.33</span>
+  		  	  <a class="basket_btn" href="#"></a>
+  		  	</div>
+  		  </div>
+
+  		  <div class="content_box">
+  		  	<img src="img/main/p_menu_c_muffin.png" alt="top_recipes_6">
+            <div class="text_box">
+  		  	  <h3><a href="#">Chocolate Muffin</a></h3>
+  		  	  <p><a href="#">Dessert</a></p>
+  		  	  <span>£17.20</span>
+  		  	  <a class="basket_btn" href="#"></a>
+  		  	</div>
+  		  </div>
+
+  		</div>
+
+  	    <div class="s_banner">
+  	  	  <h2>Super Delicious</h2>
+  	  	  <h1>CHICKEN</h1>
+  	      <p>CALL US NOW:</p>
+  	  	  <h3>1-800-555-333</h3>
+  	    </div>
+
+  	  </div>
+  	</section>
+
+  	<div id="review">
+      <div class="review_wrap">
+
+      	<div class="review_label">
+  	      <h1>What your client says</h1>
+  	    </div>
+
+        <div class="client_says_wrap">
+          <div class="left_button">
+  	        <button></button>
+  	      </div>
+
+  	      <div class="client_says">
+
+  	      	<div class="img_box">
+
+  	          <div class="profile">
+
+  	          	<div class="img_wrap">
+  	      	      <img class="photo" src="img/main/avatar-1.jpg" alt="avatar_client">
+  	      	      <img class="icon" src="img/main/icon_say.png" alt="icon_client">
+  	      	    </div>
+
+  	      	    <div class="profile_text">
+  	      	      <h3>NINA MARGARET</h3>
+  	      	      <p>CEO,apple</p>
+  	      	    </div>
+
+  	      	  </div>
+
+  	      	  <div class="star_rating"> 
+  	      	  	<span>★★★★☆</span>
+  	      	  </div>
+
+
+  	        </div>
+
+  	        <div class="text_box">
+  	          <p>"Forget the trendy pizza shops, This hidden spot makes the best New York-style pizza slice in naples</p>
+  	        </div>
+
+  	      </div>
+  
+  	      <div class="client_says">
+
+  	        <div class="img_box">
+
+  	          <div class="profile">
+
+  	      	    <div class="img_wrap">
+  	      	      <img class="photo" src="img/main/avatar-2.jpg" alt="avatar_client">
+  	      	      <img class="icon" src="img/main/icon_say.png" alt="icon_client">
+  	      	    </div>
+
+  	      	    <div class="profile_text">
+  	      	      <h3>ROSE</h3>
+  	      	      <p>Design</p>
+  	      	    </div>
+
+  	      	  </div>
+
+  	      	  <div class="star_rating"> 
+  	      	  	<span>★★★★★</span>
+  	      	  </div>
+
+  	        </div>
+
+  	        <div class="text_box">
+  	          <p>"I would be lost without restarant. I would like to perdonally thank you for your outstanding product."</p>
+  	        </div>
+
+  	      </div>
+
+  	      <div class="client_says">
+
+  	        <div class="img_box">
+
+  	          <div class="profile">
+
+  	      	    <div class="img_wrap">
+  	      	      <img class="photo" src="img/main/avatar-3.jpg" alt="avatar_client">
+  	      	      <img class="icon" src="img/main/icon_say.png" alt="icon_client">
+  	      	    </div>
+
+  	      	    <div class="profile_text">
+  	      	      <h3>CLARA</h3>
+  	      	      <p>Design</p>
+  	      	    </div>
+
+  	      	  </div>
+
+  	      	  <div class="star_rating"> 
+  	      	  	<span>★★★☆☆</span>
+  	      	  </div>
+  	      	  
+  	        </div>
+
+  	        <div class="text_box">
+  	          <p>"I am completely blown away. I would also like to say thank you to all your staff. it's really wonderfuyl."</p>
+  	        </div>
+
+  	      </div>
+
+  	      <div class="client_says">
+
+  	        <div class="img_box">
+
+  	          <div class="profile">
+
+  	      	    <div class="img_wrap">
+  	      	      <img class="photo" src="img/main/avatar-4.jpg" alt="avatar_client">
+  	      	      <img class="icon" src="img/main/icon_say.png" alt="icon_client">
+  	      	    </div>
+
+  	      	    <div class="profile_text">
+  	      	      <h3>JOHN DOE</h3>
+  	      	      <p>Design</p>
+  	      	    </div>
+
+  	      	    <div class="star_rating"> 
+  	      	  	  <span>★★★☆☆</span>
+  	      	    </div>
+
+  	      	  </div>
+
+  	      	 
+  	        </div>
+
+  	        <div class="text_box">
+  	          <p>"I would be lost without restaurant. I would like to personally thank you for your outstanding product."</p>
+  	        </div>
+
+  	      </div>
+
+  	      <div class="right_button">
+  	        <button></button>
+  	      </div>
+
+  	      <div class="client_button_wrap">
+  	        <button></button>
+  	        <button></button>
+  	        <button></button>
+  	        <button></button>
+  	      </div>
+
+  	    </div>
+
+  	  </div>
+    </div>
+
+    <div id="order">
+      <div class="order_wrap">
+ 
+      	<div class="order_box">
+      	  <div class="text_box"> 
+      	    <h3>Fast Food</h3>
+      	    <h2>Meals</h2>
+      	    <p>NEW PHENOMENON<br>BURGER TASTE</p>
+      	    <h4>$19.90</h4>
+      	    <span><a href="#"><strong>ORDER NOW</strong></a></span>
+      	  </div>
+
+      	  <div class="img_box">
+        	<img src="img/main/order1.png" alt="order_1">
+        	<img src="img/main/order_background_effect.png" alt="order_background">
+          </div>
+      	  
+      	</div>
+
+      	<div class="order_box">
+      	  <div class="text_box"> 
+      	    <h3>House</h3>
+      	    <h2>Bugers</h2>
+      	    <p>NEW PHENOMENON<br>BURGER TASTE</p>
+      	    <h4>$12.90</h4>
+      	    <span><a href="#"><strong>ORDER NOW</strong></a></span>
+      	  </div>
+
+      	  <div class="img_box">
+      	    <img src="img/main/order2.png" alt="order_2">
+      	    <img src="img/main/order_background_effect.png" alt="order_background">
+      	  </div>
+
+      	</div>
+
+      	<div class="order_box">
+      	  <div class="text_box"> 
+      	    <h3>Hot Fresh</h3>
+      	    <h2>Salats</h2>
+      	    <p>NEW PHENOMENON<br>BURGER TASTE</p>
+      	    <h4>$10.90</h4>
+      	    <span><a href="#"><strong>ORDER NOW</strong></a></span>
+      	  </div>
+
+      	  <div class="img_box">
+      	    <img src="img/main/order3.png" alt="order_3">
+      	    <img src="img/main/order_background_effect.png" alt="order_background">
+      	  </div>
+
+      	</div>
+
+      </div>
+    </div>
+
+    <div id="latest_news">
+      <div class="latest_news_wrap">
+
+        <div class="news_label">
+          <h1>Latest news</h1>
+           <a href="#"><span>see all</span> <img src="img/main/icon_right_t.png" alt="right_icon_t"></a>
+        </div>
+      	
+
+      	<div class= "content_box_wrap">
+      	  <div class="content_box">
+      	  
+      	    <div class="img_box">
+      	  	  <img src="img/main/news1.jpg" alt="news_1">
+      	    </div>
+
+      	    <div class="text_box">
+      	  	
+      	  	  <p><a href="#">Uncategorized</a> / <a href="#">September 7, 2020</a> / Post by <a class="post" href="#">namdam</a></p>
+
+      	  	  <h3>10 Reasons To Do A Digital Detox Challenge</h3>
+
+      	  	  <span>Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.</span>
+
+      	  	  <a class="read_more" href="#">READ MORE</a>
+
+      	    </div>
+
+      	  </div>
+
+      	  <div class="content_box">
+      	  
+      	    <div class="img_box">
+      	  	  <img src="img/main/news2.jpg" alt="news_2">
+      	    </div>
+
+      	    <div class="text_box">
+
+      	  	  <p><a href="#">Uncategorized</a> / <a href="#">August 31.2020</a> / Post by <a class="post" href="#">admin</a></p>
+
+      	  	  <h3>The Ultimate Hangover Burger:Egg in a Hole Burger Grilled Cheese</h3>
+
+      	  	  <span>Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.</span>
+
+      	  	  <a class="read_more" href="#">READ MORE</a>
+
+      	    </div>
+      	  
+      	  </div>
+
+      	  <div class="content_box">
+      	  
+      	    <div class="img_box">
+      	  	  <img src="img/main/news3.jpg" alt="news_3">
+      	    </div>
+
+      	    <div class="text_box">
+      	  	  <p><a href="#">Uncategorized</a> / <a href="#">August 31, 2020</a> / Post by <a class="post" href="#">admin</a></p>
+
+      	  	  <h3>Traditional Soft Pretzels with Swwet Beer Cheese</h3>
+
+      	  	  <span>Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo.</span>
+
+      	  	  <a class="read_more" href="#">READ MORE</a>
+
+      	    </div>
+      	  
+      	  </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+
+      <div class="footer_head">
+        <img src="img/common/logo_footer.png" alt="footer_logo">
+      </div>
+
+      <div class="footer_body">
+        <div class="footer_wrap">
+
+          <div class="footer_b_tbox">
+            <h3>ADDRESS</h3>
+            <p>570 8th Ave,<br> New York, NY 10018 <br> United States</p>
+          </div>
+
+          <div class="footer_b_tbox">
+            <h3>BOOK A TABLE</h3>
+            <p>Dogfood och Sliders foodtruck.<br> Under Om oss kan ni läsa</p>
+            <span class="footer_b_num">(850) 435-4155</span>
+          </div>
+
+          <div class="footer_b_tbox">
+            <h3>OPENING HOURS</h3>
+            <p>Monday – Friday: 8am – 4pm Saturday: 9am – 5pm</p>
+            <ul class="footer_link">
+              <li><a href="#"><img src="img/common/facebook_icon.png" alt="facebook_icon"></a></li>
+              <li><a href="#"><img src="img/common/twitter_icon.png" alt="twitter_icon"></a></li>
+              <li><a href="#"><img src="img/common/youtube_icon.png" alt="youtube_icon"></a></li>
+              <li><a href="#"><img src="img/common/world_press_icon.png" alt="world_press_icon"></a></li>
+            </ul>
+          </div>
+
+          <div class="footer_b_tbox">
+            <h3>NEWSLETTER</h3>
+            <p>Subscribe to the weekly newsletter for all the latest updates</p>
+            <div class="submit">
+              <input type="text" placeholder="Your Email ...">
+              <button>SUBSCRIBE</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer_end"> 
+        <div class="footer_wrap">
+          <p>Copyright © 2020 <a href="main.html">pocofood.</a> All Rights Reserved.</p>
+          <img src="img/common/footer_brand_logo.png" alt="footer_brand_logo">
+        </div>
+      </div>
+
+    </footer>
+  </body>
+</html>

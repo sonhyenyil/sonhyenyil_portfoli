@@ -1,0 +1,133 @@
+@charset "utf-8";
+#buy_info {width:100%; height:1190px; margin:20px 0px;}
+
+#top_info_wrap {width:1300px; height:30px; margin:0 auto;}
+#top_info_wrap > #top_info {float: right; padding: 2px; margin:0px 8px 0px 0px;}
+#top_info_wrap > #top_info > li {float:left; margin:0px 5px;}
+
+#info_wrap {width:1300px; height:1110px; margin:0 auto;}
+#info_imgbox {width:600px; height:1110px; float:left;}
+#info_imgbox > #big_info_img {width:600px; height:600px; margin:5px;}
+#info_imgbox > #big_info_img > a > img {width:100%; height:100%; }
+#info_imgbox > .img_list > li {width:100px; height:100px; float:left; margin:8px;} 
+#info_imgbox > .img_list > li > img {width:100%; height:100%}
+#info_imgbox > .img_list > li > img:hover{box-shadow:2px 2px 4px lightgray;}
+
+#info_wrap > #text_wrap {width:670px; height:1110px; padding:20px 40px; float:right;}
+
+#text_wrap > ul > li {margin:10px 0px 0px 0px; padding:0px 0px 10px 0px; border-bottom:1px solid #EAEAEA;}
+#text_wrap > ul > .goods2 {font-size:30px;}
+#text_wrap > ul > .goods2:before {content:"230,000원"; margin: 0px 15px 0px 0px; text-decoration:line-through; color:#CBC9C9; font-size:16px;}
+#text_wrap > ul > .goods3 > ul > li {height:30px; margin:10px 0px;}
+#text_wrap > ul > .goods3 > ul > li > .text_box1 {width:150px; height:30px; float:left;}
+#text_wrap > ul > .goods3 > ul > li > div {padding:0px 5px; height:30px; float:left;}
+
+#text_wrap > ul > li > .select_text {width:150px; height:30px; float:left; margin: 0px 10px 0px 0px; padding:2px;}
+#text_wrap > ul > li > .select_list > .select_box {width:300px; height:30px; padding:5px;}
+
+#text_wrap > .pay_cal {width:620px; height:120px; border-top:1px solid #EAEAEA; font-size:17px; margin:20px 0px 0px 0px;}
+#text_wrap > .pay_cal > .pname {width:620px; height:45px; border-bottom:1px solid #EAEAEA; padding:3px 0px;}
+#text_wrap > .pay_cal > .pname > li {float:left; margin:5px;}
+#text_wrap > .pay_cal > .pname > li:nth-of-type(1) {width:320px; height:25px; border-right:1px solid #EAEAEA;}
+#text_wrap > .pay_cal > .pname > li:nth-of-type(2) {width:110px; height:25px; border-right:1px solid #EAEAEA; text-align:center;}
+#text_wrap > .pay_cal > .pname > li:nth-of-type(3) {width:150px; height:25px; text-align:right;}
+#text_wrap > .pay_cal > .pay_sum {width:620px; height:45px; border-bottom:1px solid #EAEAEA;}
+#text_wrap > .pay_cal > .pay_sum > li {float:left; margin:5px; padding:5px 0px;}
+#text_wrap > .pay_cal > .pay_sum > li:nth-of-type(1) {width:320px; height:35px;}
+#text_wrap > .pay_cal > .pay_sum> li:nth-of-type(2) {width:110px; height:35px; text-align:center;}
+#text_wrap > .pay_cal > .pay_sum > li:nth-of-type(3) {width:150px; height:35px; text-align:right;}
+#text_wrap > .pay_cal > .pay_sum > li:nth-of-type(3):after {content:"(0 ea)"; font-size:12px;  margin:0px 0px 0px 5px;}
+#text_wrap > .pay_cal > p {font-size:12px; color:lightgray; float:right; padding:5px;}
+
+#text_wrap > .wrap_pay_menu {width:620px; height:470px;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(1) {width:620px; height:60px; background-color:#666666; color:white; font-size:27px; border-radius:2px; border:none;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(1):hover {cursor:pointer; background-color:#555555;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(2) {width:307px; height:60px; margin:15px 0px 15px 0px; background-color:white; border-radius:2px; border:1px solid #EAEAEA;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(2):hover {background-color:#f3f3f5; cursor:pointer;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(3) {width:307px; height:60px; margin:15px 0px 15px 0px; background-color:white; border-radius:2px; border:1px solid #EAEAEA;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(3):hover {background-color:#f3f3f5; cursor:pointer;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(4) {width:620px; height:60px; background-color:#FFEE2E; font-size:25px; padding:10px 0px; border:none;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(4) > img {width:30px; height:30px;}
+#text_wrap > .wrap_pay_menu > button:nth-of-type(4):hover {opacity:0.95; cursor:pointer;}
+
+#text_wrap > .wrap_pay_menu > .naver {width:100%; height:120px;}
+#text_wrap > .wrap_pay_menu > .naver > .wrap_naver {width:500px; height:100px; margin:10px; float:right; border-top:1px solid #EAEAEA; border-bottom:1px solid #EAEAEA;}
+#text_wrap > .wrap_pay_menu > .naver > .wrap_naver > .wrap_nti {margin:10px; float:left;}
+#text_wrap > .wrap_pay_menu > .naver > .wrap_naver > button:nth-of-type(1) {margin:20px 5px 20px 5px; width:240px; height:60px; background-color:#00c73c; font-size:20px; padding:0px 55px; color:white; border:none;}
+#text_wrap > .wrap_pay_menu > .naver > .wrap_naver > button:nth-of-type(1):hover {cursor:pointer;}
+#text_wrap > .wrap_pay_menu > .naver > .wrap_naver > button:nth-of-type(1) > img {width:30px; height:30px; float:left;}
+#text_wrap > .wrap_pay_menu > .naver > .wrap_naver > button:nth-of-type(2) {width:60px; height:60px; font-size:19px; color:#00c73c; border:1px solid #EAEAEA;}
+#text_wrap > .wrap_pay_menu > .naver > .wrap_naver > button:nth-of-type(2):hover {cursor:pointer;}
+
+#text_wrap > .wrap_pay_menu > .wrap_npay {width:500px; height:40px; float:right}
+#text_wrap > .wrap_pay_menu > .wrap_npay > .text_overlap {width:500px; height:40px; margin:5px 0px; float:right; position:relative;}
+#text_wrap > .wrap_pay_menu > .wrap_npay > .text_overlap > p {position:absolute; padding:2px 0px 0px 170px;}
+#text_wrap > .wrap_pay_menu > .wrap_npay > .text_overlap > p:nth-of-type(1):before {content:"앱출시"; color:#00bd39; margin:0px 5px 0px 3px;}
+#text_wrap > .wrap_pay_menu > .wrap_npay > .text_overlap > p:nth-of-type(2) {display:none;}
+#text_wrap > .wrap_pay_menu > .wrap_npay > .text_overlap > p:nth-of-type(2):before {content:"멤버십 "; color:#00bd39; margin:0px 5px 0px 3px;}
+#text_wrap > .wrap_pay_menu > .wrap_npay > .text_overlap > button {width:25px; height:25px; margin:1px 5px; float:right; text-align:center;}
+#text_wrap > .wrap_pay_menu > .wrap_npay > .text_overlap > button:hover {cursor:pointer;}
+
+#text_wrap > .wrap_pay_menu > .last_info {width:600px; height:70px; margin:15px; padding:10px; border:1px solid #EAEAEA; text-align:center; float:right}
+#text_wrap > .wrap_pay_menu > .last_info > p {font-size:20px;}
+#text_wrap > .wrap_pay_menu > .last_info > button{width:40px; height:40px; float:right; border-radius:100%; margin:-50px 0px 0px 0px; color:white; background:#333333; border:none;}
+#text_wrap > .wrap_pay_menu > .last_info > button:hover {cursor:pointer;}
+
+#detail {width:1300px; height:2060px;  margin:0 auto;}
+
+#detail > #detail_label {width:1300px; height:60px; border-bottom:1px solid #EAEAEA; margin:0 auto; padding:10px 3px;}
+#detail > #detail_label > label {font-size:27px; margin:0px 20px;}
+
+#detail > #brand_intro {width:1300px; height:650px; margin:0 auto; padding:20px 0px; }
+#detail > #brand_intro > a > img {width:600px; height:600px; float:left;} 
+#detail > #brand_intro > a > .intro_text_box {width:650px; height:600px; float:left; text-align:center; border:1px solid #EAEAEA;}
+#detail > #brand_intro > a > .intro_text_box > h2 {font-size:40px; margin:100px 0 0 0px;}
+#detail > #brand_intro > a > .intro_text_box > h3 {font-size:25px; margin:30px 0 0 0px;}
+#detail > #brand_intro > a > .intro_text_box > p {font-size:20px; margin:10px 0 0 0px;}
+#detail > #brand_intro > a > .intro_text_box > .box_p {width:200px; height:50px; border:1px solid black; font-weight:bold; padding:7px; margin:20px 0px 0px 230px;}
+
+#detail > #item_table {width:100%; height:1300px; margin:70px 0px; text-align:center; padding:20px;}
+#item_table > .img_box > img {width:1200px; height:1200px; margin:40px 0px; }
+
+#item_detail {width:1300px; height:1400px; margin:0 auto}
+#item_detail > #item_detail_wrap {width:1300px; height:1400px; margin:0 auto; text-align:center;}
+#item_detail > #item_detail_wrap > span {font-size:40px; }
+#item_detail > #item_detail_wrap > span:before {content:"-------------"; margin:0px 20px;}
+#item_detail > #item_detail_wrap > span:after {content:"-------------"; margin:0px 10px;}
+#item_detail > #item_detail_wrap > p {margin:20px 0px;}
+
+#item_detail > #item_detail_wrap > .option {width:1000px; height:400px; text-align:left; margin:0 auto; padding:30px; border-radius:80px; position:relative;}
+#item_detail > #item_detail_wrap > .option:hover {background-color:#EAEAEA; opacity:0.9; transition:0.3s;}
+#item_detail > #item_detail_wrap > .option > a > .option_text_box {width:450px; height:300px; padding:30px;}
+#item_detail > #item_detail_wrap > .option > a > img {width:350px; height:350px; border-radius:50%; float:right; margin:-300px 0px 0px -50px;}
+#item_detail > #item_detail_wrap > .option > a > .option_text_box > h2 {font-size:30px; margin:10px 20px;}
+#item_detail > #item_detail_wrap > .option > a > .option_text_box > h3 {font-size:25px; margin:10px 20px;}
+#item_detail > #item_detail_wrap > .option > button {padding:10px 40px; border-radius:40px; font-size:24px; margin:30px; position:absolute; left:5%; bottom: 10%;}
+#item_detail > #item_detail_wrap > .option > button:hover {cursor:pointer; background-color:silver;}
+
+
+#option_box1 {width:1300px; height:9270px; margin:0 auto; text-align:center; padding:50px 0px;}
+#option_box1 > img {margin:20px 0px;}
+#option_box1 > table {width:850px; height:600px; border:1px solid #EAEAEA; text-align:left; margin:0 auto; border-collapse:collapse;}
+#option_box1 > table th {border-bottom:1px solid #EAEAEA; padding:0px 0px 0px 15px;}
+#option_box1 > table td {border-bottom:1px solid #EAEAEA; padding:0px 0px 0px 10px;} 
+
+#customer_center {width:1300px; height:400px; margin:0 auto;}
+#customer_center > .text_box {width:350px; height:300px; border-bottom:1px solid #EAEAEA; border-top:1px solid #EAEAEA; float:left; padding:30px; margin:50px 0px 0px 200px;}
+#customer_center > .text_box > h1 {font-size:35px; font-weight:bold;}
+#customer_center > .text_box > h2 {font-size:30px; margin:0px 0px 15px;}
+
+
+#customer_center > .text_box2{width:550px; height:300px; border-top:1px solid #EAEAEA; border-bottom:1px solid #EAEAEA; float:left; margin:50px 200px 0px 0px; padding:50px 20px;}
+#customer_center > .text_box2 > img {float:left; margin:0px 15px;}
+#customer_center > .text_box2 > p {margin:10px 0px;}
+
+
+
+.review {width:1300px; height:420px; margin:0 auto; text-align:center; padding:10px 0px;}
+.review > h3 {margin:0px 0px 15px 0px; font-size:15px;}
+.review > table {width:1300px; height:350px; margin :0 auto; border-top:1px solid #EAEAEA;}
+.review > table td {color:#666;}
+.review > table td, th {border-bottom:1px solid #EAEAEA; border-collapse:collapse;}
+.review > button {padding:5px 10px; float:right; margin:10px 5px; border:1px solid silver; background-color:#EAEAEA;}
+.review > button:hover {background-color:#666; cursor:pointer;}
